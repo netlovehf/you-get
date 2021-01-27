@@ -41,7 +41,6 @@ class Youku(VideoExtractor):
     mobile_ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
     dispatcher_url = 'vali.cp31.ott.cibntv.net'
 
-    # Last updated: 2017-10-13
     stream_types = [
         {'id': 'hd3',      'container': 'flv', 'video_profile': '1080P'},
         {'id': 'hd3v2',    'container': 'flv', 'video_profile': '1080P'},
